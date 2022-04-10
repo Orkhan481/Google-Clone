@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000DE;
+}
+
+/* Navbar Start */
+nav a{
+    text-decoration: none;
+    color:#000;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+}
+
+nav img {
+    width: 24px;
+}
+
+nav a:nth-child(1) {
+    padding: 0px 0px 0px 15px;
+}
+
+nav a:nth-child(2) {
+    padding: 0px 15px;
+}
+
+nav a:nth-child(3) {
+    padding: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1A73E8;
+    border: 1px solid transparent;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    text-align: center;
+}
+
+/* Navbar Finish */
+/* Search-box Start */
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .logo-area {
+    width: 1280px;
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+section .google-logo {
+    width: 272px;
+}
+
+section .magnifier {
+    width: 20px;
+}
+
+section .microphone {
+    width: 24px;
+}
+
+section .search-box {
+    width: 584px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+section .search-box .search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .87);
+    outline: none;
+    font-size: 16px;
+}
+
+section .search-box .icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+}
+/* Search-Box Finish */
+/* Buttons Start */
+section .buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    margin:11px 4px;
+    padding:0px 16px;
+    cursor:pointer;
+    line-height: 27px;
+}
+/* Buttons Finish */
+/* Language Start */
+section .lang{
+    display: flex;
+    line-height:28px;
+}
+
+section .lang a{
+    padding:0px 3px;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* Language Finish */
+/* Footer Start */
+section .links{
+    width:100vw;
+    position: absolute;
+    bottom:0;
+    background-color: #f2f2f2;
+    margin-top:-20px;
+}
+
+section .links .col-1{
+    display: block;
+    padding:15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+section .links .col-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    font-size: 15px;
+    margin:15px;
+}
+
+section .links .col-2 a{
+    padding:15px;
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section .links .col-2 a:hover{
+    text-decoration: underline;
+}
+/* Footer Finish */
