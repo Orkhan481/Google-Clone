@@ -103,7 +103,7 @@ section .search-box .search {
     border: 1px solid rgba(0, 0, 0, .87);
     outline: none;
     font-size: 16px;
-    box-shadow: 0px 0px 2px 0px #70757a;
+    box-shadow: 1px 1px 0px 0px #70757a;
 }
 
 section .search-box .icons {
