@@ -1,0 +1,11 @@
+.links .col-2 {
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.links .col-2 .right-side{
+    margin-top:10px;
+}
+
