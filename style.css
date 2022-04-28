@@ -30,11 +30,11 @@ nav img {
 }
 
 nav a:nth-child(1) {
-    padding: 0px 0px 0px 15px;
+    padding: 0 0 0 15px;
 }
 
 nav a:nth-child(2) {
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 nav a:nth-child(3) {
@@ -50,7 +50,7 @@ nav button {
     color: #fff;
     background-color: #1A73E8;
     border: 1px solid transparent;
-    margin: 0px 8px;
+    margin: 0 8px;
     padding: 9px 23px;
     text-align: center;
 }
@@ -103,7 +103,6 @@ section .search-box .search {
     border: 1px solid rgba(0, 0, 0, .87);
     outline: none;
     font-size: 16px;
-    box-shadow: 1px 1px 0px 0px #70757a;
 }
 
 section .search-box .icons {
@@ -139,7 +138,7 @@ section .lang{
 }
 
 section .lang a{
-    padding:0px 3px;
+    padding:0 3px;
     font-size: 15px;
     text-decoration: none;
 }
